@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/apexcharts.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="css/datatables.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/mian.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <div class="clearfix" id="mainPage">
+        <nav>
+            <div class="side-nav">
+                <div>
+                    <div class="nav-links pt-5">
+                        <ul>
+                            <li>
+                                <a href="index.html"><img src="img/hos-ico.png" class="mx-2 ico-img">hospital</a>
+                            </li>
+                            <li>
+                                <a href="analysis.html"><img src="img/analysis-ico.png" class="mx-2 ico-img">analysis</a>
+                            </li>
+                            <li>
+                                <a href="profile.html"><img src="img/profile-ico.png" class="mx-2 ico-img">profile</a>
+                            </li>
+                            <li>
+                                <a href="wallet.html"><img src="img/wallet.png" class="mx-2 ico-img">wallet</a>
+                            </li>
+                            <li>
+                                <a data="doctor" class="linkNav"><img src="img/doctor-ico.png" class="mx-2 ico-img">doctor
+                                    <i class="fas fa-angle-up float-right mx-3 angle-up angle-up-doctor"></i>
+                                    <i class="fas fa-angle-down float-right mx-3 angle-down angle-down-doctor"></i>
+                                    <ul class="secound-nav" id="secound-doctor">
+                                   
+                                        <li>
+                                            <a href="alldoctor.html"><img src="img/analysis-2.png" class="mx-2 ico-img">all doctor</a>
+                                        </li>
+                                        <li>
+                                            <a href="datapatient.html"><img src="img/analysis-ico.png" class="mx-2 ico-img">data doctor</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="linkNav" data="patient"><img src="img/patient.png" class="mx-2 ico-img">patient
+                                    <i class="fas fa-angle-up float-right mx-3 angle-up angle-up-patient"></i>
+                                    <i class="fas fa-angle-down float-right mx-3 angle-down angle-down-patient"></i>
+                                    <ul class="secound-nav" id="secound-patient">
+                                     
+                                        <li>
+                                            <a href="allpatient.html"><img src="img/analysis-2.png" class="mx-2 ico-img">all patient</a>
+                                        </li>
+                                        <li>
+                                            <a href="datapatient.html"><img src="img/analysis-ico.png" class="mx-2 ico-img">data patient</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="linkNav" data="nurse"><img src="img/nurss.png" class="mx-2 ico-img">nurse
+                                    <i class="fas fa-angle-up float-right mx-3 angle-up angle-up-nurse"></i>
+                                    <i class="fas fa-angle-down float-right mx-3 angle-down angle-down-nurse"></i>
+                                    <ul class="secound-nav" id="secound-nurse">
+                                      
+                                        <li>
+                                            <a href="allnurse.html"><img src="img/data.png" class="mx-2 ico-img">all nurse
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="datanurse.html"><img src="img/analysis-ico.png" class="mx-2 ico-img">data nurse</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkNav" data="bed"><img src="img/bed.png" class="mx-2 ico-img">bed
+                                    <i class="fas fa-angle-up float-right mx-3 angle-up angle-up-bed"></i>
+                                    <i class="fas fa-angle-down float-right mx-3 angle-down angle-down-bed"></i>
+                                    <ul class="secound-nav" id="secound-bed">
+                                    
+                                        <li>
+                                            <a href="allbed.html"><img src="img/bed.png" class="mx-2 ico-img">all bed
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="databed.html"><img src="img/bed.png" class="mx-2 ico-img">data bed
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="linkNav" data="clicink"> <img src="img/small icon.png" class="mx-2 ico-img"> clicink
+                                    <i class="fas fa-angle-up float-right mx-3 angle-up angle-up-clicink"></i>
+                                    <i class="fas fa-angle-down float-right mx-3 angle-down angle-down-clicink"></i>
+                                    <ul class="secound-nav" id="secound-clicink">
+                                      
+                                        <li>
+                                            <a href="allclicink.html"> <img src="img/small icon.png" class="mx-2 ico-img">all clicink</a>
+                                        </li>
+                                        <li>
+                                            <a href="dataclicink.html"><img src="img/small icon.png" class="mx-2 ico-img">data clicink</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="top-all px-3 py-2 clearfix mb-5 fixed-top">
+    
+                <div class="w-15 float-right ">
+                    <div class="row">
+                        <div class="col-1 d-flex justify-content-center align-items-center">
+                            <i class="far fa-bell" id="alarm"><span>33</span></i>
+                        </div>
+                        <div class="col-1 mx-1 d-flex justify-content-center align-items-center">
+                            <i class="far fa-envelope " id="email"><span>33</span></i>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center align-items-center">
+                            <img src="img/team-1.jpg" class=" rounded-circle" height="30px" width="30px" alt="">
+                        </div>
+                        <div class="col-6 px-0">
+                            <div class=" user pt-1">kareem lashin</div>
+                        </div>
+                    </div>
+                </div>
+       
+    </div>
+<section>
+    <div class="container pt-5 mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bg-white box-shadow border-10 total-wallet py-2 px-2">
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <p class="py-2 first">Total transation</p>
+                            <h6>170</h6>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <p class="py-2">Total fee</p>
+                            <h6>170000 EGP</h6>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <p class="py-2">My creadiet</p>
+                            <h6>170 EGP</h6>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <p class="py-2">Dye by</p>
+                            <h6>17/1/2010</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row mt-4">
+        
+                    <div class="col-md-6 item-total">
+                        <h6 class="mt-3">
+                           12 Dec,2019-15 Dec,2019
+                        </h6>
+                        <div id="all-wallet" class="bg-white box-shadow border-10 my-2 px-3 py-2">
+                            <h6>
+                                <span>one day</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>bookink bed</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Paid</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Due by</span><span class="float-right">12 Dec,2019</span> </h6>
+                        </div>
+        
+                        <h6 class="mt-3">
+                           12 Dec,2019-15 Dec,2019
+                        </h6>
+                        <div id="all-wallet" class="bg-white box-shadow border-10 my-2 px-3 py-2">
+                            <h6>
+                                <span>one day</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>bookink bed</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Paid</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Due by</span><span class="float-right">12 Dec,2019</span> </h6>
+                        </div>
+        
+                        <h6 class="mt-3">
+                           12 Dec,2019-15 Dec,2019
+                        </h6>
+                        <div id="all-wallet" class="bg-white box-shadow border-10 my-2 px-3 py-2">
+                            <h6>
+                                <span>one day</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>bookink bed</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Paid</span><span class="float-right">35</span> </h6>
+                            <h6>
+                                <span>Due by</span><span class="float-right">12 Dec,2019</span> </h6>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <div class="item my-3">
+                                <p>
+                                    2 Dec,2019
+        
+                                </p>
+        
+                                <div class="theBlock bg-white box-shadow border-10 p-3">
+                                    <h6>
+                                        <span>7:30 pm</span> </h6>
+                                    <h6>
+                                        <span>bookink bed</span> </h6>
+                                    <h6>
+                                        <span>Paid : 100EGP</span> </h6>
+        
+                                </div>
+                            </div>
+                            <div class="item my-3">
+                                <p>
+                                    2 Dec,2019
+        
+                                </p>
+        
+                                <div class="theBlock bg-white box-shadow border-10 p-3">
+                                    <h6>
+                                        <span>7:30 pm</span> </h6>
+                                    <h6>
+                                        <span>bookink bed</span> </h6>
+                                    <h6>
+                                        <span>Paid :  100EGP</span> </h6>
+        
+                                </div>
+                            </div>
+                            <div class="item my-3">
+                                <p>
+                                    2 Dec,2019
+        
+                                </p>
+        
+                                <div class="theBlock bg-white box-shadow border-10 p-3 ">
+                                    <h6>
+                                        <span>7:30 pm</span> </h6>
+                                    <h6>
+                                        <span>bookink bed</span> </h6>
+                                    <h6>
+                                        <span>Paid : 100EGP</span> </h6>
+        
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        </main>
+    </div>
+
+    <i class="fas fa-bars" id="bars"></i>
+
+    <script src="js/jquery-3-4-1-min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+</html>
+
+</html>
+
+</html>
